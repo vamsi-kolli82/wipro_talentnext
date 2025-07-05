@@ -1,0 +1,23 @@
+import java.util.*;
+public class Q_8 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		char a=sc.nextLine().charAt(0);
+		int b=(int)a;
+		if(b>=48 && b<58) {
+			System.out.println("Digit");
+
+		}
+		else if(b>=65 && b<123) {
+			System.out.println("Alphabet");
+
+		}
+		else {
+			System.out.println("Special Character");
+
+		}
+		sc.close();
+	}
+
+}

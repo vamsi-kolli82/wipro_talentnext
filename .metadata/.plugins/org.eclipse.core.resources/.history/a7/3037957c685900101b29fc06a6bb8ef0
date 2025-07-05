@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class Q_9 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String gen=sc.next();
+		int age=sc.nextInt();
+		if(gen.equals("Female") && age>=1 && age<=5) {
+			System.out.println("8.2%");
+		}
+		if(gen.equals("Female") && age>=59 && age<=100) {
+			System.out.println("9.2%");
+		}
+		if(gen.equals("male") && age>=1 && age<=58) {
+			System.out.println("8.4%");
+		}
+		if(gen.equals("Female") && age>=59 && age<=100) {
+			System.out.println("9.4%");
+		}
+		sc.close();
+	}
+
+}
